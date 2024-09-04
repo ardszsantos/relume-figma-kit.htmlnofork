@@ -15,6 +15,7 @@ footer {
 .footer-content {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    width: 100%;
     gap: 128px;
 }
 
@@ -49,6 +50,7 @@ footer {
     align-items: flex-start;
     justify-content: center;
     gap: 24px;
+    margin-right: 128px;
 
     width: 500px;
     height: 199px;
@@ -70,7 +72,7 @@ footer {
 
 .form-input {
     padding: 12px;
-    width: 365px;
+    width: 400px;
     height: 48px;
 }
 
@@ -86,10 +88,34 @@ footer {
 
 .content-nav {
     display: flex;
-
+    gap: 152px;
 }
 
 .col-1, .col-2, .follow-us {
     width: 200px;
     height: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 40px;
+
+}
+
+.col-1-P, .col-2-P, .follow-us-P {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.col-1 p a, .col-2 p a {
+    color: black;
+}
+
+.social-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icon-text a {
+    color: black;
 }
