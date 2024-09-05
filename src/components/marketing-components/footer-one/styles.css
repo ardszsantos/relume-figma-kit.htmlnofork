@@ -135,7 +135,9 @@ footer {
     color: black;
 }
 
-
+.footer-bottom-hr {
+    display: none;
+}
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)  {
@@ -186,10 +188,10 @@ footer {
 
     .footer-bottom {
         display: flex;
-        flex-direction: column-reverse;
         align-items: flex-start;
-        border-top: none;
     }
+
+
 
     .footer-bottom p {
         text-align: left;
@@ -200,7 +202,14 @@ footer {
         
         width: 100%;
         margin-top: 48px;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
+    }
+
+    .footer-bottom-hr {
+        display: block;
+        height: 4px;
+        width: 100%;
+        background-color: black;
     }
 }
