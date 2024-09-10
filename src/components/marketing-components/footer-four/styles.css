@@ -5,6 +5,8 @@ footer {
     flex-direction: column;
     gap: 80px;
     height: 331px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -14,6 +16,12 @@ footer {
     align-items: center;
     width: 100%;
     height: 33px;
+    
+}
+
+.footer-content a {
+    font-size: 16px;
+    font-weight: 600px;
 }
 
 .nav-pages {
@@ -35,9 +43,12 @@ footer {
 .footer-bottom {
     border-top: 1px solid black;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 24px;
+    width: 100%;
+    font-size: 14px;
+    height: 54px;
 }
 
 .footer-bottom p {
@@ -53,6 +64,10 @@ footer {
 
 .nav-terms a {
     color: black;
+}
+
+.footer-bottom a {
+    text-decoration: underline;
 }
 
 
@@ -80,16 +95,19 @@ footer {
     .footer-bottom {
         flex-direction: column-reverse;
         gap: 32px;
+        height: 100%;
+        align-items: center;
     }
-
-    .footer-bottom p {
-        padding-top: 32px;
-    }
-
+    
     .nav-terms {
         flex-direction: column;
         align-items: center;
-        padding: 33px 0px 0px 0px;
-
+        margin-top: 25px;
+        padding-top: 0;
+    }
+    
+    .footer-bottom p {
+        padding-top: 0;
+        margin-top: 32px;
     }
 }
