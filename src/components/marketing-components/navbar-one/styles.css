@@ -1,0 +1,36 @@
+header {
+  height: 72px;
+  width: 100%;
+  padding: 16px 64px;
+  border-bottom: 1px solid black;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+
+.navbar-container nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.button-1, .button-2 {
+  padding: 8px 20px;
+}
+
+.button-1 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.button-2 {
+  background-color: black;
+  color: white;
+  
+}
