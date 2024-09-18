@@ -47,3 +47,28 @@ header p {
   background-color: transparent;
   color: white;
 }
+
+
+@media (max-width: 375px) {
+  header {
+    padding: 64px 20px;
+    width: 320px;
+  }
+
+  header p b {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  header p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 320px;
+  }
+}
